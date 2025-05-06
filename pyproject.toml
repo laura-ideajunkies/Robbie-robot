@@ -1,0 +1,12 @@
+[project]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "action>=1.4.4",
+    "django-robots>=6.1",
+    "environment>=1.0.0",
+    "numpy>=2.1.2",
+]
