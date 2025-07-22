@@ -1,0 +1,44 @@
+# Robotics Simulation Project
+
+## Description
+This project implements a simulation of different robot types that explore a 2D grid environment. The robots perform various actions such as moving and picking up cans while navigating obstacles and walls. The project aims to evaluate how different robot designs perform in terms of efficiency and can-collecting capabilities.
+
+## Table of Contents
+- [Features](#features)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Robot Types](#robot-types)
+- [Project Context](#project-context)
+
+## Features
+- Multiple robot types with distinct decision-making strategies.
+- A randomizable environment with cans and walls.
+- Action recording and scoring based on robot performance.
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+  Navigate to the project directory:
+
+cd <project-directory>
+Install the required dependencies:
+
+pip install -r requirements.txt
+Usage
+To run the simulation, execute the following command:
+
+python main.py
+The simulation will evaluate each robot's performance over multiple trials and display the average scores for each robot type.
+
+Robot Types
+BaseRobot: The basic robot that takes random actions.
+SensingRobot: A robot that senses its environment.
+SmarterSensingRobot: An improved version that makes better decisions based on sensory input.
+CanFollowingRobot: This robot actively seeks and follows cans.
+ExperimentalRobot: Features experimental behaviors for research purposes.
+PatternFollowingRobot: Follows a specific scanning pattern.
+ClusterRobot: Groups actions to increase can collection efficiency.
+
+Project Context
+This project was undertaken as part of a course. The Cluster Robot was specifically programmed by me based on search patterns that rescue divers use for low visibility searches.
